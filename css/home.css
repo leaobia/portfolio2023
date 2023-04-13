@@ -16,6 +16,8 @@
     font-size: 4rem;
     font-weight: bold;
 }
+
+
 @media (max-width:960px){
     .home{
         display: flex;
@@ -36,9 +38,13 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 20%;
     }
     .home__text{
         display: flex;
         justify-content: center;
+    }
+    .home__photo{
+        width: 80%;
     }
 }
