@@ -10,18 +10,24 @@ ul,li,a{
     text-decoration: none;
 }
 
-.tomato{
+#tomato{
     background-color:tomato ;
 }
 
 .tomato2{
     color: tomato;
 }
+.verde2{
+    color: teal;
+}
+.roxo2{
+    color: royalblue;
+}
 
-.verde{
+#verde{
     background-color: teal;
 }
 
-.roxo{
+#roxo{
     background-color: royalblue;
 }
