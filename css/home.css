@@ -1,2 +1,44 @@
+.home {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
 
+.home__text {
+    font-size: 2.25rem;
+    color: #c0c0c0;
+}
 
+.home__name {
+    font-size: 4rem;
+    font-weight: bold;
+}
+@media (max-width:960px){
+    .home{
+        display: flex;
+        flex-direction: column;    
+        align-items: center;
+        gap: 64px;
+        width: 100%;
+    }
+    .home__text{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* MOBILE */
+@media (max-width:640px){
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home__text{
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -9,3 +9,19 @@ ul,li,a{
     list-style: none;
     text-decoration: none;
 }
+
+.tomato{
+    background-color:tomato ;
+}
+
+.tomato2{
+    color: tomato;
+}
+
+.verde{
+    background-color: teal;
+}
+
+.roxo{
+    background-color: royalblue;
+}
