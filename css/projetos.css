@@ -1,0 +1,37 @@
+/* #projetos{
+   height: 90vh; 
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 3fr));
+    justify-content: space-between;
+    gap: 48px;
+    max-width: 1200px;
+}
+
+.card {
+    width: 320px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:before {
+    background-color: #0008;
+    content: "Clique aqui para ver o projeto";
+    display: block;
+    color: #ffff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+    transform: translateY(100%);
+    transition: ease-in-out .6s;
+}
+
+.card:hover::before {
+    transform: translateY(0%);
+} */

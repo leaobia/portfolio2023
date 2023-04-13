@@ -8,7 +8,6 @@ const linkSocial = document.querySelector('.socialLinks')
 const logo = document.querySelector('.logo')
 const homeName = document.querySelector('.home__name')
 
-
 const addVermelho = () => {
 
     link.forEach(element => {
@@ -66,6 +65,7 @@ const addRoxo = () => {
     homeName.classList.remove('verde2')
     homeName.classList.remove('tomato2')
     homeName.classList.add('roxo2')
+
 }
 
 btnCorTomato.addEventListener('click', addVermelho)

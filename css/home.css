@@ -48,3 +48,22 @@
         width: 80%;
     }
 }
+/* @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  #home {
+    animation-name: slide-up;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    height: 100vh;
+  } */
+  
+  
