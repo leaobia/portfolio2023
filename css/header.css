@@ -29,16 +29,6 @@
     padding-top: 15%;
 }
 
-.borderRed{
-    border-top: 2px solid tomato;
-}
-.borderGreen{
-    border-top: 2px solid teal;
-}
-.borderRoxo{
-    border-top: 2px solid royalblue;
-}
-
 
 .links-container a{
     color: #ffff;
@@ -48,26 +38,7 @@
     
 }
 
-.hoverRed:hover{
-    border: 2px solid tomato;
-    border-radius: 10px;
-    color: tomato;
-    font-size: 2.1rem;
-}
 
-.hoverGreen:hover{
-    border: 2px solid teal;
-    border-radius: 10px;
-    color: teal;
-    font-size: 2.1rem;
-}
-
-.hoverRoxo:hover{
-    border: 2px solid royalblue;
-    border-radius: 10px;
-    color: royalblue;
-    font-size: 2.1rem;
-}
 
 .menu-burger-container.active ~.links-container{
     opacity: 1;

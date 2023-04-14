@@ -24,7 +24,6 @@
 
 .border_title {
     content: "";
-    border: 3px solid tomato;
     width: 40%;
 }
 
@@ -35,13 +34,13 @@
 }
 
 .slide-in-left{
-    animation: slide-in-left 0.5s forwards;
-    animation-delay: 0.5s;
+    animation: slide-in-left 0.8s forwards;
+    animation-delay: 0.8s;
 }
 
 .slide-in-right{
-    animation: slide-in-right 0.5s forwards;
-    animation-delay: 0.5s;
+    animation: slide-in-right 0.8s forwards;
+    animation-delay: 0.8s;
 }
 
 
@@ -62,7 +61,6 @@
 .projetoName {
     font-size: 2.5rem;
     font-size: clamp(2rem, 1.5vw, 2.5rem);
-    color: tomato;
     font-weight: 500;
 }
 

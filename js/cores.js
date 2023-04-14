@@ -4,8 +4,10 @@ const btnCorTomato = document.getElementById('tomato')
 const btnCorVerde = document.getElementById('verde')
 const btnCorRoxo = document.getElementById('roxo')
 const link = document.querySelectorAll('.link')
+const projetoName = document.querySelectorAll('.projetoName')
 const linkSocial = document.querySelector('.socialLinks')
 const logo = document.querySelector('.logo')
+const borderTitle = document.querySelector('.border_title')
 const homeName = document.querySelector('.home__name')
 
 const addVermelho = () => {
@@ -14,6 +16,12 @@ const addVermelho = () => {
         element.classList.remove('hoverRoxo')
         element.classList.remove('hoverGreen')
         element.classList.add('hoverRed')
+    })
+
+    projetoName.forEach(element => {
+        element.classList.remove('roxo2')
+        element.classList.remove('verde2')
+        element.classList.add('tomato2')
     })
 
     linkSocial.classList.remove('borderGreen')
@@ -27,6 +35,10 @@ const addVermelho = () => {
     homeName.classList.remove('verde2')
     homeName.classList.remove('roxo2')
     homeName.classList.add('tomato2')
+
+    borderTitle.classList.remove('bordenGreen')
+    borderTitle.classList.remove('borderRoxo')
+    borderTitle.classList.add('borderRed')
 }
 
 const addVerde = () => {
@@ -35,6 +47,13 @@ const addVerde = () => {
         element.classList.remove('hoverRoxo')
         element.classList.add('hoverGreen')
     })
+
+    projetoName.forEach(element => {
+        element.classList.remove('roxo2')
+        element.classList.remove('tomato2')
+        element.classList.add('verde2')
+    })
+
     linkSocial.classList.remove('borderRed')
     linkSocial.classList.remove('borderRoxo')
     linkSocial.classList.add('borderGreen')
@@ -46,6 +65,10 @@ const addVerde = () => {
     homeName.classList.remove('tomato2')
     homeName.classList.remove('roxo2')
     homeName.classList.add('verde2')
+
+    borderTitle.classList.remove('borderRed')
+    borderTitle.classList.remove('borderRoxo')
+    borderTitle.classList.add('borderGreen')
 }
 
 const addRoxo = () => {
@@ -54,6 +77,13 @@ const addRoxo = () => {
         element.classList.remove('hoverGreen')
         element.classList.add('hoverRoxo')
     })
+
+    projetoName.forEach(element => {
+        element.classList.remove('verde2')
+        element.classList.remove('tomato2')
+        element.classList.add('roxo2')
+    })
+
     linkSocial.classList.remove('borderRed')
     linkSocial.classList.remove('borderGreen')
     linkSocial.classList.add('borderRoxo')
@@ -66,6 +96,9 @@ const addRoxo = () => {
     homeName.classList.remove('tomato2')
     homeName.classList.add('roxo2')
 
+    borderTitle.classList.remove('borderGreen')
+    borderTitle.classList.remove('borderRed')
+    borderTitle.classList.add('borderRoxo')
 }
 
 btnCorTomato.addEventListener('click', addVermelho)
