@@ -1,0 +1,33 @@
+#contato{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5vh;
+}
+
+.descriptionContato{
+    font-size: clamp(1rem, 1.5vw, 1.8rem);
+    color: #c0c0c0;
+    max-width: 100%;
+    height: auto;
+    word-wrap: break-word;
+}
+
+.social-links{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font-size: clamp(2rem, 2.4vw, 4rem);
+}
+
+.icon a i{
+    color: #c0c0c0;
+    transition:  .3s ease-in-out;
+}
+
+.icon a i:hover{
+    scale: 0.9;
+}

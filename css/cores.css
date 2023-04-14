@@ -19,6 +19,18 @@
     font-size: 2.1rem;
 }
 
+.hoverRed2:hover{
+    color: tomato;
+}
+
+.hoverGreen2:hover{
+    color: teal;
+}
+
+.hoverRoxo2:hover{
+    color: royalblue;
+}
+
 .borderRed{
     border-top: 2px solid tomato;
 }

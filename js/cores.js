@@ -5,10 +5,11 @@ const btnCorTomato = document.getElementById('tomato')
 const btnCorVerde = document.getElementById('verde')
 const btnCorRoxo = document.getElementById('roxo')
 const link = document.querySelectorAll('.link')
+const social = document.querySelectorAll('.social')
 const projetoName = document.querySelectorAll('.projetoName')
 const linkSocial = document.querySelector('.socialLinks')
 const logo = document.querySelector('.logo')
-const borderTitle = document.querySelector('.border_title')
+const borderTitle = document.querySelectorAll('.border_title')
 const homeName = document.querySelector('.home__name')
 
 const addVermelho = () => {
@@ -19,10 +20,22 @@ const addVermelho = () => {
         element.classList.add('hoverRed')
     })
 
+    social.forEach(element => {
+        element.classList.remove('hoverRoxo2')
+        element.classList.remove('hoverGreen2')
+        element.classList.add('hoverRed2')
+    })
+
     projetoName.forEach(element => {
         element.classList.remove('roxo2')
         element.classList.remove('verde2')
         element.classList.add('tomato2')
+    })
+
+    borderTitle.forEach(element => {
+        element.classList.remove('bordenGreen')
+        element.classList.remove('borderRoxo')
+        element.classList.add('borderRed')
     })
 
     linkSocial.classList.remove('borderGreen')
@@ -37,9 +50,6 @@ const addVermelho = () => {
     homeName.classList.remove('roxo2')
     homeName.classList.add('tomato2')
 
-    borderTitle.classList.remove('bordenGreen')
-    borderTitle.classList.remove('borderRoxo')
-    borderTitle.classList.add('borderRed')
 
     body.classList.remove('scrollGreen')
     body.classList.remove('scrollBLue')
@@ -53,10 +63,22 @@ const addVerde = () => {
         element.classList.add('hoverGreen')
     })
 
+    social.forEach(element => {
+        element.classList.remove('hoverRed2')
+        element.classList.remove('hoverRoxo2')
+        element.classList.add('hoverGreen2')
+    })
+
     projetoName.forEach(element => {
         element.classList.remove('roxo2')
         element.classList.remove('tomato2')
         element.classList.add('verde2')
+    })
+
+    borderTitle.forEach(element => {
+        element.classList.remove('borderRed')
+        element.classList.remove('borderRoxo')
+        element.classList.add('borderGreen')
     })
 
     linkSocial.classList.remove('borderRed')
@@ -71,10 +93,6 @@ const addVerde = () => {
     homeName.classList.remove('roxo2')
     homeName.classList.add('verde2')
 
-    borderTitle.classList.remove('borderRed')
-    borderTitle.classList.remove('borderRoxo')
-    borderTitle.classList.add('borderGreen')
-
     body.classList.remove('scrollBlue')
     body.classList.remove('scrollRed')
     body.classList.add('scrollGreen')
@@ -87,10 +105,22 @@ const addRoxo = () => {
         element.classList.add('hoverRoxo')
     })
 
+    social.forEach(element => {
+        element.classList.remove('hoverRed2')
+        element.classList.remove('hoverGreen2')
+        element.classList.add('hoverRoxo2')
+    })
+
     projetoName.forEach(element => {
         element.classList.remove('verde2')
         element.classList.remove('tomato2')
         element.classList.add('roxo2')
+    })
+
+    borderTitle.forEach(element => {
+        element.classList.remove('borderGreen')
+        element.classList.remove('borderRed')
+        element.classList.add('borderRoxo')
     })
 
     linkSocial.classList.remove('borderRed')
@@ -104,10 +134,6 @@ const addRoxo = () => {
     homeName.classList.remove('verde2')
     homeName.classList.remove('tomato2')
     homeName.classList.add('roxo2')
-
-    borderTitle.classList.remove('borderGreen')
-    borderTitle.classList.remove('borderRed')
-    borderTitle.classList.add('borderRoxo')
 
     body.classList.remove('scrollGreen')
     body.classList.remove('scrollRed')
