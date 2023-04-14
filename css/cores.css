@@ -28,3 +28,25 @@
 .borderRoxo{
     border-top: 2px solid royalblue;
 }
+
+#tomato{
+    background-color:tomato ;
+}
+
+.tomato2{
+    color: tomato;
+}
+.verde2{
+    color: teal;
+}
+.roxo2{
+    color: royalblue;
+}
+
+#verde{
+    background-color: teal;
+}
+
+#roxo{
+    background-color: royalblue;
+}

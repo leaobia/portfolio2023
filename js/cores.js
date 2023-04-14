@@ -1,5 +1,6 @@
 'use strict'
 
+const body = document.querySelector('body')
 const btnCorTomato = document.getElementById('tomato')
 const btnCorVerde = document.getElementById('verde')
 const btnCorRoxo = document.getElementById('roxo')
@@ -39,6 +40,10 @@ const addVermelho = () => {
     borderTitle.classList.remove('bordenGreen')
     borderTitle.classList.remove('borderRoxo')
     borderTitle.classList.add('borderRed')
+
+    body.classList.remove('scrollGreen')
+    body.classList.remove('scrollBLue')
+    body.classList.add('scrollRed')
 }
 
 const addVerde = () => {
@@ -69,6 +74,10 @@ const addVerde = () => {
     borderTitle.classList.remove('borderRed')
     borderTitle.classList.remove('borderRoxo')
     borderTitle.classList.add('borderGreen')
+
+    body.classList.remove('scrollBlue')
+    body.classList.remove('scrollRed')
+    body.classList.add('scrollGreen')
 }
 
 const addRoxo = () => {
@@ -99,6 +108,10 @@ const addRoxo = () => {
     borderTitle.classList.remove('borderGreen')
     borderTitle.classList.remove('borderRed')
     borderTitle.classList.add('borderRoxo')
+
+    body.classList.remove('scrollGreen')
+    body.classList.remove('scrollRed')
+    body.classList.add('scrollBlue')
 }
 
 btnCorTomato.addEventListener('click', addVermelho)

@@ -10,24 +10,42 @@ ul,li,a{
     text-decoration: none;
 }
 
-#tomato{
-    background-color:tomato ;
-}
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollBlue::-webkit-scrollbar-track {
+    background: #BCC2E5;
+  }
+  
+ .scrollBlue::-webkit-scrollbar-thumb {
+    background: #3347B0;
+  }
+  
+ .scrollBlue::-webkit-scrollbar-thumb:hover {
+    background: #3347B0;
+  }
 
-.tomato2{
-    color: tomato;
-}
-.verde2{
-    color: teal;
-}
-.roxo2{
-    color: royalblue;
-}
+  .scrollRed::-webkit-scrollbar-track {
+    background: RGB(255, 218, 185);
+  }
+  
+ .scrollRed::-webkit-scrollbar-thumb {
+    background: tomato;
+  }
+  
+ .scrollRed::-webkit-scrollbar-thumb:hover {
+    background: tomato;
+  }
 
-#verde{
-    background-color: teal;
-}
-
-#roxo{
-    background-color: royalblue;
-}
+  .scrollGreen::-webkit-scrollbar-track {
+    background: #90EE90;
+  }
+  
+ .scrollGreen::-webkit-scrollbar-thumb {
+    background: teal;
+  }
+  
+ .scrollGreen::-webkit-scrollbar-thumb:hover {
+    background: teal;
+  }
