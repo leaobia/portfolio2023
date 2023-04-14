@@ -62,3 +62,18 @@
 #roxo{
     background-color: royalblue;
 }
+
+.backRed{
+    background-color:tomato;
+    border: 2px solid tomato;
+}
+
+.backBlue{
+    background-color: royalblue;
+    border: 2px solid royalblue;
+}
+
+.backGreen{
+    background-color: teal;
+    border: 2px solid teal;
+}

@@ -11,6 +11,7 @@ const linkSocial = document.querySelector('.socialLinks')
 const logo = document.querySelector('.logo')
 const borderTitle = document.querySelectorAll('.border_title')
 const homeName = document.querySelector('.home__name')
+const back = document.querySelector('.back')
 
 const addVermelho = () => {
 
@@ -54,6 +55,10 @@ const addVermelho = () => {
     body.classList.remove('scrollGreen')
     body.classList.remove('scrollBLue')
     body.classList.add('scrollRed')
+
+    back.classList.remove('backGreen')
+    back.classList.remove('backBlue')
+    back.classList.add('backRed')
 }
 
 const addVerde = () => {
@@ -96,6 +101,10 @@ const addVerde = () => {
     body.classList.remove('scrollBlue')
     body.classList.remove('scrollRed')
     body.classList.add('scrollGreen')
+
+    back.classList.remove('backBlue')
+    back.classList.remove('backRed')
+    back.classList.add('backGreen')
 }
 
 const addRoxo = () => {
@@ -138,6 +147,10 @@ const addRoxo = () => {
     body.classList.remove('scrollGreen')
     body.classList.remove('scrollRed')
     body.classList.add('scrollBlue')
+
+    back.classList.remove('backGreen')
+    back.classList.remove('backRed')
+    back.classList.add('backBlue')
 }
 
 btnCorTomato.addEventListener('click', addVermelho)
