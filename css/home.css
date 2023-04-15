@@ -20,6 +20,11 @@
     font-weight: bold;
 }
 
+.home__photo{
+    width: 361px;
+    height: 364px;
+}
+
 
 @media (max-width:960px){
     .home{
@@ -48,7 +53,8 @@
         justify-content: center;
     }
     .home__photo{
-        width: 80%;
+        width: 90%;
+        height: 90%;
     }
 }
  @keyframes slide-up {
