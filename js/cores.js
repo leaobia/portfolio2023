@@ -10,6 +10,7 @@ const projetoName = document.querySelectorAll('.projetoName')
 const linkSocial = document.querySelector('.socialLinks')
 const logo = document.querySelector('.logo')
 const borderTitle = document.querySelectorAll('.border_title')
+const alturaBarra = document.querySelectorAll('.alturaBarra')
 const homeName = document.querySelector('.home__name')
 const back = document.querySelector('.back')
 
@@ -19,6 +20,12 @@ const addVermelho = () => {
         element.classList.remove('hoverRoxo')
         element.classList.remove('hoverGreen')
         element.classList.add('hoverRed')
+    })
+
+    alturaBarra.forEach(element => {
+        element.classList.remove('backBlue')
+        element.classList.remove('backGreen')
+        element.classList.add('backRed')
     })
 
     social.forEach(element => {
@@ -74,6 +81,12 @@ const addVerde = () => {
         element.classList.add('hoverGreen2')
     })
 
+    alturaBarra.forEach(element => {
+        element.classList.remove('backRed')
+        element.classList.remove('backBlue')
+        element.classList.add('backGreen')
+    })
+
     projetoName.forEach(element => {
         element.classList.remove('roxo2')
         element.classList.remove('tomato2')
@@ -118,6 +131,12 @@ const addRoxo = () => {
         element.classList.remove('hoverRed2')
         element.classList.remove('hoverGreen2')
         element.classList.add('hoverRoxo2')
+    })
+
+    alturaBarra.forEach(element => {
+        element.classList.remove('backRed')
+        element.classList.remove('backGreen')
+        element.classList.add('backBlue')
     })
 
     projetoName.forEach(element => {
